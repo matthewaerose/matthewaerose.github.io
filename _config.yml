@@ -37,6 +37,7 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-feed
 
+google_analytics: G-R90CZ79KH4
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
