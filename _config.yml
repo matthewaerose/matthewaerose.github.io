@@ -27,18 +27,31 @@ description: >- # this means to ignore newlines until "baseurl:"
   solutions for complex infrastructure challenges
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matthewaerose.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+
 domain: matthewaerose.github.io
 github_username: matthewaerose
 
-# Build settings
-# theme: minima
 remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-feed
 
 gtag: G-R90CZ79KH4
-rss: true
+# rss: true
+
+social-network-links:
+  rss: true
+  github: matthewaerose
+  mastodon: mas.to/@kephalos
+  linkedin: matthewaerose
+
+rss-description: "Matthew Rose's Blog"
+
+navbar-links:
+  home: "index"
+  blog:
+    - terraform: "terraform"
+  about Me: "about"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -47,14 +60,14 @@ rss: true
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
