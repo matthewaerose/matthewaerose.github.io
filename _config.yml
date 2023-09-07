@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matthewaerose.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 domain: matthewaerose.github.io
-github_username:  matthewaerose
+github_username: matthewaerose
 
 # Build settings
 # theme: minima
@@ -38,6 +38,7 @@ plugins:
   - jekyll-feed
 
 gtag: G-R90CZ79KH4
+rss: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
