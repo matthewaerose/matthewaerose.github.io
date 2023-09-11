@@ -2,7 +2,7 @@
 layout: post
 title:  "Uplevel your Command Line"
 date:   2023-09-10 00:39:19 -0500
-tags: cli computing expert 
+tags: [cli, computing, expert]
 ---
 # Supercharge your command line with these 10 tools and tips
 I was screen sharing with a colleague the other day and realized how far _I've_ come with my CLI usage.
