@@ -35,8 +35,9 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-feed
 
+timezone: America/Chicago
+
 gtag: G-R90CZ79KH4
-# rss: true
 
 social-network-links:
   rss: true
