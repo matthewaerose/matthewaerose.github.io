@@ -74,20 +74,20 @@ Given a file that has the following content
 ```terraform
 # locals.tf
 locals {
-    this-is-a-object = {
+    this_is_a_object = {
         foo = "bar"
-        a-num = 78.9
-        a-bool = true
-        the-list = [1,2,3]
-        the-map = {
+        a_num = 78.9
+        a_bool = true
+        the_list = [1,2,3]
+        the_map = {
             foo = "bar"
             baz = "bat"
         }
     }
 
-    this-is-a-num = 123.987
-    this-is-a-string = "hello, world!"
-    this-is-interpolated = "${local.this-is-a-string} The number is ${local.this-is-a-num}"
+    this_is_a_num = 123.987
+    this_is_a_string = "hello, world!"
+    this_is_interpolated = "${local.this_is_a_string} The number is ${local.this_is_a_num}"
 }
 ```
 
