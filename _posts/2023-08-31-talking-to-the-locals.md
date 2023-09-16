@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: post-comments
 title:  "Using the Terraform Console"
 date:   2023-08-31 00:39:19 -0500
 categories: terraform console
 tags: [terraform, console, cli]
+comments: true
 ---
 # What is the Terraform Console?
 The Terraform Console provides a local environment to interrogate state and prove out methods to interact with that state during the plan and apply phases.
