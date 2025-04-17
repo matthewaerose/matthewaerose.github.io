@@ -32,6 +32,23 @@ domain: matthewaerose.github.io
 github_username: matthewaerose
 
 remote_theme: daattali/beautiful-jekyll@6.0.1
+
+# Color theme
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#3498db"
+hover-col: "#2980b9"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Add your own custom styles
+extra_css:
+  - /assets/css/custom.css
+
 plugins:
   - jekyll-feed
 
