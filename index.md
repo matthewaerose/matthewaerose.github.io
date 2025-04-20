@@ -4,13 +4,15 @@
 
 layout: page
 title: Matthew Rose
-subtitle: Software Engineer & DevOps Enthusiast
-cover-img: assets/img/cover-image.jpg
+subtitle: Software Engineer
+cover-img: assets/img/cover-image-1.jpg
 ---
+
+{% include index.html %}
 
 # Hello, I'm Matthew! 👋
 
-I'm a dedicated **Software Engineer** with a passion for creating elegant solutions and debugging complex problems. My technical journey began in DoD and has evolved into the private SaaS sector.
+I'm a **Software Engineer** who loves crafting neat solutions and tackling tricky bugs. I like to use tools and technologies that get software to run in the cloud. Kubernetes, containers, gitOps, AWS, etc. 
 
 ## What I Write About
 
@@ -43,6 +45,5 @@ I'm a dedicated **Software Engineer** with a passion for creating elegant soluti
 {% endfor %}
 
 <div class="cta-container">
-  <a href="/about" class="cta-button">More About Me</a>
-  <a href="/blog" class="cta-button">View All Posts</a>
+  <!-- <a href="/blog" class="cta-button">View All Posts</a> -->
 </div>

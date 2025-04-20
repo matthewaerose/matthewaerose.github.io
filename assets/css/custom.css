@@ -116,15 +116,67 @@ a:hover {
 /* Header and intro section */
 .intro-header {
   margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; /* Set a fixed height for the header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro-header .page-heading h1 {
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 .intro-header .page-heading .page-subheading {
   font-size: 1.5rem;
-  color: var(--secondary-color);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   margin-bottom: 2rem;
+}
+
+/* Cover image animation */
+.animated-background {
+  animation: slowFloat 15s ease-in-out infinite;
+  background-size: cover !important;
+  background-position: center !important;
+  transition: background-image 1s ease-in-out;
+}
+
+.temp-header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes slowFloat {
+  0% {
+    background-position: center 0%;
+  }
+  50% {
+    background-position: center 100%;
+  }
+  100% {
+    background-position: center 0%;
+  }
+}
+
+/* Container for header text to ensure it stays on top */
+.intro-header .container {
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 0 10px rgba(0,0,0,0.3); /* Add text shadow to make text readable on any background */
 } 

@@ -49,6 +49,9 @@ footer-link-col: "#404040"
 extra_css:
   - /assets/css/custom.css
 
+extra_js:
+  - /assets/js/cover-animation.js
+
 plugins:
   - jekyll-feed
 
@@ -67,8 +70,6 @@ rss-description: "Matthew Rose's Blog"
 navbar-links:
   home: "index"
   blog:
-    - terraform: "terraform"
-  about Me: "about"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
