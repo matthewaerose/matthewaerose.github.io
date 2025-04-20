@@ -127,6 +127,29 @@ a:hover {
   justify-content: center;
 }
 
+/* Add this media query for responsive header height */
+@media (max-width: 768px) {
+  .intro-header {
+    height: 300px; /* Smaller height on mobile devices */
+    margin-bottom: 30px; /* Less margin on mobile */
+  }
+  
+  .intro-header .page-heading h1 {
+    font-size: 2.5rem; /* Smaller font size on mobile */
+  }
+  
+  .intro-header .page-heading .page-subheading {
+    font-size: 1.2rem; /* Smaller font size on mobile */
+  }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+  .intro-header {
+    height: 200px; /* Even smaller height on very small devices */
+  }
+}
+
 .intro-header .page-heading h1 {
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
