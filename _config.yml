@@ -69,7 +69,8 @@ rss-description: "Matthew Rose's Blog"
 
 navbar-links:
   home: "index"
-  blog:
+  blog: "blog"
+  resume: "resume"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
