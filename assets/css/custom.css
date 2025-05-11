@@ -126,7 +126,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px; /* Set a fixed height for the header */
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,23 +135,23 @@ a:hover {
 /* Add this media query for responsive header height */
 @media (max-width: 768px) {
   .intro-header {
-    height: 300px; /* Smaller height on mobile devices */
-    margin-bottom: 30px; /* Less margin on mobile */
+    height: 300px;
+    margin-bottom: 30px;
   }
   
   .intro-header .page-heading h1 {
-    font-size: 2.5rem; /* Smaller font size on mobile */
+    font-size: 2.5rem;
   }
   
   .intro-header .page-heading .page-subheading {
-    font-size: 1.2rem; /* Smaller font size on mobile */
+    font-size: 1.2rem;
   }
 }
 
 /* For very small screens */
 @media (max-width: 480px) {
   .intro-header {
-    height: 200px; /* Even smaller height on very small devices */
+    height: 200px
   }
 }
 
@@ -159,13 +159,13 @@ a:hover {
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 70%);
 }
 
 .intro-header .page-heading .page-subheading {
   font-size: 1.5rem;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 70%);
   margin-bottom: 2rem;
 }
 
@@ -190,13 +190,15 @@ a:hover {
   transition: opacity 1s ease-in-out;
 }
 
-@keyframes slowFloat {
+@keyframes slow-float {
   0% {
     background-position: center 0%;
   }
+
   50% {
     background-position: center 100%;
   }
+
   100% {
     background-position: center 0%;
   }
@@ -206,5 +208,5 @@ a:hover {
 .intro-header .container {
   position: relative;
   z-index: 2;
-  text-shadow: 0 0 10px rgba(0,0,0,30%); /* Add text shadow to make text readable on any background */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 30%);
 } 
