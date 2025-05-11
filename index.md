@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 title: Matthew Rose
 subtitle: Software Engineer
@@ -12,14 +9,14 @@ cover-img: assets/img/cover-image-1.jpg
 
 # Hello, I'm Matthew! 👋
 
-I'm a **Software Engineer** who loves crafting neat solutions and tackling tricky bugs. I like to use tools and technologies that get software to run in the cloud. Kubernetes, containers, gitOps, AWS, etc. 
+I'm a **Software Engineer** specializing in cloud infrastructure and distributed systems. My expertise includes Kubernetes orchestration, containerization, GitOps workflows, and AWS cloud services.
 
 ## What I Write About
 
-- 🚀 DevOps practices and automation
-- 💻 Software engineering techniques
-- 🔧 Debugging complex technical issues
-- 🛠️ Tools and technologies I'm exploring
+🚀 DevOps practices and automation
+💻 Software engineering techniques
+🔧 Debugging complex technical issues
+🛠️ Tools and technologies I'm exploring
 
 ## Recent Posts
 
