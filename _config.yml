@@ -1,63 +1,33 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+
 
 title: Matthew Rose
-email: matthewaerose@gmail.com
+email: me@matthewaerose.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Matthew Rose, a dedicated Site Reliability Engineer (SRE) and 
   DevOps enthusiast. With a solid foundation in both software development 
   and system administration, I excel at creating efficient and automated 
   solutions for complex infrastructure challenges
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://matthewaerose.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://matthewaerose.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-domain: matthewaerose.github.io
+domain: matthewaerose.com
 github_username: matthewaerose
 
-remote_theme: daattali/beautiful-jekyll@6.0.1
-
-# Color theme
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#3498db"
-hover-col: "#2980b9"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-
-# Add your own custom styles
-extra_css:
-  - /assets/css/custom.css
-
-extra_js:
-  - /assets/js/cover-animation.js
+remote_theme: mmistakes/minimal-mistakes@4.27.1
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 timezone: America/Chicago
 
-gtag: G-R90CZ79KH4
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-R90CZ79KH4"
+    anonymize_ip: false # default
+
+minimal_mistakes_skin: "dark"
 
 social-network-links:
   rss: true
@@ -67,10 +37,52 @@ social-network-links:
 
 rss-description: "Matthew Rose's Blog"
 
+# Navigation
 navbar-links:
   home: "index"
   blog: "blog"
   resume: "resume"
+  contact: "contact"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+author:
+  name: Matthew Rose
+  location: Florence, AL
+  avatar: /assets/images/self.png
+  bio: >
+    Pianist turned Site Reliability Engineer.
+    Ask me about my cats.
+  links:
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/matthewaerose.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/matthewaerose"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/matthewaerose"
+
+
+footer:
+  links:
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/matthewaerose.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/matthewaerose"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/matthewaerose"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

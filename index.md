@@ -1,23 +1,16 @@
 ---
-layout: page
-title: Matthew Rose
-# cover-img: assets/img/cover-image-1.jpg
+layout: single
 ---
 
-<!-- {% include index.html %} -->
+<div class="hero">
+  <h2 class="hero-subtitle">Who am I?</h2>
+  <p class="hero-intro">
+<p>I'm a pragmatic and forward-thinking Site Reliability Engineer. I have a passion for building resilient, automated infrastructure.</p>
 
-I'm a **Software Engineer** specializing in cloud infrastructure and distributed systems. My expertise includes Kubernetes orchestration, containerization, GitOps workflows, and AWS cloud services.
+<p>My work bridges the gap between development and operations. I emphasize scalable design, reliability, and efficiency across diverse systems.</p>
 
-## What I Write About
+<p>With a strong command of modern DevOps practices, cloud-native tooling, and infrastructure-as-code, I specialize in creating solutions that are technically sound and operationally sustainable.</p>
 
-🚀 DevOps practices and automation
-
-💻 Software engineering techniques
-
-🔧 Debugging complex technical issues
-
-🛠️ Tools and technologies I'm exploring
-
-<div class="cta-container">
-  <!-- <a href="/blog" class="cta-button">View All Posts</a> -->
+<p>I thrive in environments where continuous improvement, observability, and thoughtful automation drive impact.</p>
+  </p>
 </div>

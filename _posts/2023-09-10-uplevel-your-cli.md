@@ -1,5 +1,5 @@
 ---
-layout: post-comments
+layout: single
 title:  "Supercharge your Command Line"
 date:   2023-09-10 00:39:19 -0500
 tags: [cli, computing, expert]

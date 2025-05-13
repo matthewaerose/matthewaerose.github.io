@@ -1,5 +1,5 @@
 ---
-layout: post-comments
+layout: single
 title:  "Using the Terraform Console"
 date:   2023-08-31 00:39:19 -0500
 categories: terraform console

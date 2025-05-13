@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: single
 title: Matthew Rose
 subtitle: Resume
 ---
-
-## Contact Information
-[LinkedIn](https://linkedin.com/in/matthewaerose) | [GitHub](https://github.com/matthewaerose)
 
 ## Skills and Technologies
 - **Cloud Platforms:** AWS, Azure

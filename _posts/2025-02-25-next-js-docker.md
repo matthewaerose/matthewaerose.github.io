@@ -1,8 +1,8 @@
 ---
-layout: post-comments
+layout: single
 title:  "Dockerizing a Next.js App"
 date:   2025-02-25 00:39:19 -0500
-tags: [docker, nextjs, webdev]
+tags: [docker, nextjs, webdev, ai-written]
 comments: true
 --- 
 

@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: posts
 title: Blog
 ---
 
-{% for post in site.posts %}
+<!-- {% for post in site.posts %}
 <div class="post-preview">
   <a href="{{ post.url | relative_url }}">
     <h2 class="post-title">{{ post.title }}</h2>
@@ -22,4 +22,4 @@ title: Blog
   </div>
 </div>
 <div class="post-preview-divider"></div>
-{% endfor %}
+{% endfor %} -->
