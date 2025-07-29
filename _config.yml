@@ -76,7 +76,7 @@ footer:
   links:
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/matthewaerose.com"
+      url: "https://bsky.app/profile/matthewaerose.bsky.social"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/matthewaerose"
