@@ -6,55 +6,57 @@ subtitle: Resume
 
 ## Skills and Technologies
 - **Cloud Platforms:** AWS, Azure
-- **Containerization & Orchestration:** Docker, Kubernetes, ArgoCD
-- **Infrastructure as Code:** Terraform, CloudFormation
-- **Programming Languages:** Go, Python, Shell Scripting
+- **Containerization & Orchestration:** Docker, Kubernetes, Helm
+- **Infrastructure as Code:** Terraform, CloudFormation, Terratest
+- **Programming Languages:** Go, Python, Bash
 - **Monitoring & Logging:** Grafana, DataDog, Prometheus, OpenTelemetry, Loki
-- **CI/CD Tools:** Jenkins, GitHub Actions, various build tools
-- **Networking Protocols:** Proficiency in TCP/IP, BGP, DNS, HTTP/S, and TLS
-- **Operating Systems:** Mac, Windows, Linux (ubuntu, RHEL)
+- **CI/CD Tools:** GitLab CI/CD, Jenkins, GitHub Actions
+- **Networking Protocols:** TCP/IP, BGP, DNS, HTTP/S, TLS
 
 ## Experience
 
+### Senior Software Engineer → Staff Software Engineer
+**ServiceNow, Santa Clara, CA** - July 2025 - Present
+- Built a Golang proxy microservice that consumes requests from the Glide frontend and orchestrates the lifecycle of single-tenant customer pods, replacing a previously manual provisioning process
+- Developed an in-pod Golang service wrapping a Java JAR of third-party metadata collector business logic, bringing legacy logic into a container-native runtime
+- Implemented a customer-facing Golang proxy microservice that brokers tenant interactions with collector pods, now deployed globally and available to all ServiceNow customers
+- Authored net-new GitLab CI/CD pipelines (build, unit/integration tests, security scans) integrated with ServiceNow's internal build and artifact systems, with zero failed deployments attributable to these services since launch
+- Wrote net-new Helm charts consumed by ServiceNow's internal Kubernetes workload tooling, standardizing Services, Certificates, Deployments, and Replica Sets across all three microservices
+- Partnered with the security team to requisition TLS certificates and provision secrets via ServiceNow's custom vault, and stood up alerts, monitors, and dashboards as ConfigMaps in Helm for day-one observability
+- Adopted KinD (Kubernetes in Docker) for local development, shortening feedback cycles and reducing review comments on pull requests
+
 ### Staff Reliability Engineer
-**data.world, Austin, TX** – March 2024 – Present
-- Led the transformation of legacy infrastructure and application code to support multi architecture docker builds, leading to a 20% performance increase
-- Implemented support for multiple AWS capacity providers within a single ECS cluster, creating distinct compute environments that streamlined AMI deployments and facilitated the CPU architecture transition
-- Developed lambdas with Golang and Docker which utilized AWS Config and Systems Manager to transition away from Lacework, achieving annual cost savings of ~$100,000
-- Automated the build and deployment processes for Dockerized AWS Lambdas, demonstrating the feasibility and effectiveness of managing a monorepo Terraform repository that supports diverse application code
-- Created a Terraform and Golang-based project to perform image scanning on newly built AMIs, ensuring no images with vulnerabilities were released. Implemented alerting mechanisms to notify relevant teams through various channels
+**data.world, Austin, TX** - March 2024 - July 2025
+- Migrated legacy infrastructure and application code to multi-architecture Docker builds, delivering a 20% performance increase across production workloads
+- Enabled multiple AWS capacity providers within a single ECS cluster, isolating compute environments to streamline AMI rollouts and unblock the CPU architecture migration
+- Replaced Lacework with Golang/Docker Lambdas built on AWS Config and Systems Manager, cutting ~$100K in annual licensing costs
+- Automated build and deployment of Dockerized AWS Lambdas within a Terraform monorepo, proving out a pattern now used to manage diverse application code across the org
+- Built a Terraform and Golang pipeline to scan newly built AMIs for vulnerabilities before release, with multi-channel alerting that routes findings to owning teams
 
 ### Senior Site Reliability Engineer
-**data.world, Austin, TX** – March 2023 – March 2024
-- Designed and implemented an enterprise-scale Terraform solution by developing robust modules for a private registry, integrating Golang-based testing with Terratest, and configuring Terraform Cloud, thereby standardizing and modernizing infrastructure deployments across the organization
-- Led the migration of legacy Infrastructure as Code from CloudFormation to Terraform, fostering a collaborative environment for IaC changes, improving visibility and auditability, and bolstering security through seamless OIDC integration
-- Introduced comprehensive testing protocols for critical infrastructure using Golang and Terratest, uncovering previously unidentified issues and implementing effective solutions to close security and performance gaps
-- Developed and maintained reusable GitHub Actions and workflows deployed enterprise-wide, promoting DRY principles and minimizing errors in routine tasks
+**data.world, Austin, TX** - March 2023 - March 2024
+- Stood up an enterprise Terraform platform — private module registry, Terratest-based Golang test suite, and Terraform Cloud — standardizing infrastructure deployments across the organization
+- Migrated legacy IaC from CloudFormation to Terraform and integrated OIDC for AWS access, improving change auditability and eliminating long-lived credentials
+- Introduced Golang/Terratest coverage for critical infrastructure, surfacing latent security and performance issues and closing the gaps before they reached production
+- Built reusable GitHub Actions and workflows adopted enterprise-wide, eliminating duplicated CI logic across ~20 repositories
 
 ### Senior Site Reliability Engineer
-**OpenGov** – May 2021 – March 2023
-- Leveraged statistical methods to analyze CPU and memory consumption across 400+ databases, optimizing their distribution within Azure Elastic Pools to balance resource utilization and reduce the number of required pools—driving scalability and cost efficiency
-- Responded to and resolved production incidents, conducting thorough investigations and prioritizing mitigation efforts to maintain high system reliability and minimal downtime
-- Established and maintained comprehensive alerts and monitoring systems using Grafana, Azure Monitor, and New Relic to track critical SLIs and SLOs across infrastructure and applications, ensuring proactive issue detection and system health
+**OpenGov** - May 2021 - March 2023
+- Analyzed CPU and memory patterns across 400+ databases to rebalance Azure Elastic Pools, reducing resource consumption by 20% and cutting associated Azure spend
+- Owned production incident response and root-cause investigation, maintaining 99.99% uptime across customer-facing systems
+- Built SLI/SLO tracking in Grafana, Azure Monitor, and New Relic across infrastructure and application tiers, catching regressions before customer impact
 
-### Principal Software Engineer
-**Northrop Grumman, Huntsville, AL** – October 2020 - May 2021
-- Researched and prototyped advanced DevOps practices to assess their applicability in highly secure, classified on-premises environments, ensuring deployments meet strict compliance and security standards
-- Utilized Docker, Docker Compose, the ELK stack, and Jenkins CI/CD pipelines to deliver software seamlessly to classified environments, establishing robust logging, monitoring, and automated deployment processes that enhance system reliability
-
-### Software Engineer
-**Northrop Grumman, Huntsville, AL** – February 2019 - October 2020
-- Implemented DevOps practices for legacy systems to streamline release cycles and accelerate system updates, contributing to enhanced reliability and faster incident response
-- Automated the build and delivery processes across multiple operating systems (RHEL and Solaris), reducing manual intervention and ensuring consistent, reliable application deployments
-- Designed and maintained Jenkins pipelines to improve visibility into the CI/CD process, ensuring rigorous monitoring and consistent delivery of critical applications
-
-### Previous Experience
-- **Associate Systems Software Engineer,** Abaco Systems, Huntsville, AL — May 2018 – February 2019
-- **Software Engineering Aide,** Radiance Technologies, Huntsville, AL — November 2015 – May 2018
+### Software Engineer → Principal Software Engineer
+**Northrop Grumman, Huntsville, AL** - February 2019 - May 2021
+- Prototyped DevOps tooling for classified on-premises environments, validating compatibility with strict compliance and security controls
+- Delivered software to classified environments using Docker, Docker Compose, the ELK stack, and Jenkins CI/CD pipelines, introducing centralized logging, monitoring, and automated deployment to a previously manual workflow
+- Introduced DevOps practices to legacy systems, shortening release cycles and accelerating delivery of system updates
+- Automated build and delivery across RHEL and Solaris targets, replacing manual processes that had caused inconsistent deployments
+- Designed and maintained Jenkins pipelines for critical applications, surfacing build and deployment status that had previously been opaque to the team
 
 ## Education
-- **Bachelor of Computer Science** – 2018  
+- **Bachelor of Computer Science** - 2018  
   University of Alabama in Huntsville
-- **Bachelor of Music** – 2011  
+- **Bachelor of Music** - 2011  
   University of Montevallo
 
