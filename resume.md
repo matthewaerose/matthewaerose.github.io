@@ -35,7 +35,7 @@ subtitle: Resume
 
 ### Senior Site Reliability Engineer
 **data.world, Austin, TX** - March 2023 - March 2024
-- Stood up an enterprise Terraform platform — private module registry, Terratest-based Golang test suite, and Terraform Cloud — standardizing infrastructure deployments across the organization
+- Stood up an enterprise Terraform platform - private module registry, Terratest-based Golang test suite, and Terraform Cloud - standardizing infrastructure deployments across the organization
 - Migrated legacy IaC from CloudFormation to Terraform and integrated OIDC for AWS access, improving change auditability and eliminating long-lived credentials
 - Introduced Golang/Terratest coverage for critical infrastructure, surfacing latent security and performance issues and closing the gaps before they reached production
 - Built reusable GitHub Actions and workflows adopted enterprise-wide, eliminating duplicated CI logic across ~20 repositories
@@ -53,6 +53,10 @@ subtitle: Resume
 - Introduced DevOps practices to legacy systems, shortening release cycles and accelerating delivery of system updates
 - Automated build and delivery across RHEL and Solaris targets, replacing manual processes that had caused inconsistent deployments
 - Designed and maintained Jenkins pipelines for critical applications, surfacing build and deployment status that had previously been opaque to the team
+
+### Previous Experience
+- **Associate Systems Software Engineer,** Abaco Systems, Huntsville, AL - May 2018 - February 2019
+- **Software Engineering Aide,** Radiance Technologies, Huntsville, AL - November 2015 - May 2018
 
 ## Education
 - **Bachelor of Computer Science** - 2018  
