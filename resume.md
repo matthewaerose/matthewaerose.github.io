@@ -25,19 +25,14 @@ subtitle: Resume
 - Partnered with the security team to requisition TLS certificates and provision secrets via ServiceNow's custom vault, and stood up alerts, monitors, and dashboards as ConfigMaps in Helm for day-one observability
 - Adopted KinD (Kubernetes in Docker) for local development, shortening feedback cycles and reducing review comments on pull requests
 
-### Staff Reliability Engineer
+### Senior SRE → Staff SRE
 **data.world, Austin, TX** - March 2024 - July 2025
-- Migrated legacy infrastructure and application code to multi-architecture Docker builds, delivering a 20% performance increase across production workloads
-- Enabled multiple AWS capacity providers within a single ECS cluster, isolating compute environments to streamline AMI rollouts and unblock the CPU architecture migration
 - Replaced Lacework with Golang/Docker Lambdas built on AWS Config and Systems Manager, cutting ~$100K in annual licensing costs
-- Automated build and deployment of Dockerized AWS Lambdas within a Terraform monorepo, proving out a pattern now used to manage diverse application code across the org
-- Built a Terraform and Golang pipeline to scan newly built AMIs for vulnerabilities before release, with multi-channel alerting that routes findings to owning teams
-
-### Senior Site Reliability Engineer
-**data.world, Austin, TX** - March 2023 - March 2024
 - Stood up an enterprise Terraform platform - private module registry, Terratest-based Golang test suite, and Terraform Cloud - standardizing infrastructure deployments across the organization
+- Migrated legacy infrastructure and application code to multi-architecture Docker builds, delivering a 20% performance increase across production workloads
 - Migrated legacy IaC from CloudFormation to Terraform and integrated OIDC for AWS access, improving change auditability and eliminating long-lived credentials
-- Introduced Golang/Terratest coverage for critical infrastructure, surfacing latent security and performance issues and closing the gaps before they reached production
+- Built a Terraform and Golang pipeline to scan newly built AMIs for vulnerabilities before release, with multi-channel alerting that routes findings to owning teams
+- Automated build and deployment of Dockerized AWS Lambdas within a Terraform monorepo, proving out a pattern now used to manage diverse application code across the org
 - Built reusable GitHub Actions and workflows adopted enterprise-wide, eliminating duplicated CI logic across ~20 repositories
 
 ### Senior Site Reliability Engineer
