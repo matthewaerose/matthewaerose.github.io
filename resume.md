@@ -36,7 +36,7 @@ subtitle: Resume
 - Built reusable GitHub Actions and workflows adopted enterprise-wide, eliminating duplicated CI logic across ~20 repositories
 
 ### Senior Site Reliability Engineer
-**OpenGov** - May 2021 - March 2023
+**OpenGov, San Francisco, CA** - May 2021 - March 2023
 - Analyzed CPU and memory patterns across 400+ databases to rebalance Azure Elastic Pools, reducing resource consumption by 20% and cutting associated Azure spend
 - Owned production incident response and root-cause investigation, maintaining 99.99% uptime across customer-facing systems
 - Built SLI/SLO tracking in Grafana, Azure Monitor, and New Relic across infrastructure and application tiers, catching regressions before customer impact

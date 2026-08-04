@@ -3,7 +3,7 @@
 title: Matthew Rose
 email: me@matthewaerose.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Matthew Rose, a dedicated Site Reliability Engineer (SRE) and 
+  I'm Matthew Rose, a Platform Engineer and 
   DevOps enthusiast. With a solid foundation in both software development 
   and system administration, I excel at creating efficient and automated 
   solutions for complex infrastructure challenges
@@ -58,7 +58,7 @@ author:
   location: Florence, AL
   avatar: /assets/images/self.png
   bio: >
-    Pianist turned Site Reliability Engineer.
+    Pianist turned Software Engineer.
     Ask me about my cats.
   links:
     - label: "Bluesky"
