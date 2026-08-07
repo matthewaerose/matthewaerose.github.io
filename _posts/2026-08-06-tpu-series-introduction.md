@@ -6,7 +6,7 @@ tags: [TPU, ML, TensorCore, JAX, Pallas, CUDA, GPU]
 comments: true
 ---
 
-# TPUs: the next frontier
+# TPUs: a series introduced
 
 I've become _fascinated_ with TPUs.
 
