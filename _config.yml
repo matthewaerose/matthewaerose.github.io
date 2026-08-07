@@ -37,6 +37,10 @@ social-network-links:
 
 rss-description: "Matthew Rose's Blog"
 
+# comments
+disqus:
+  shortname: matthewaerose-github-io
+  
 # Navigation
 navbar-links:
   home: "index"

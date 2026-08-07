@@ -21,5 +21,9 @@ title: Blog
     </div>
   </div>
 </div>
+{% if site.disqus.shortname %}
+    {% include components/disqus_comments.html %}
+{% endif %}
+
 <div class="post-preview-divider"></div>
 {% endfor %} -->
