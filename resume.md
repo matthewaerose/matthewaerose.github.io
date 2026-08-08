@@ -26,7 +26,7 @@ subtitle: Resume
 - Adopted KinD (Kubernetes in Docker) for local development, shortening feedback cycles and reducing review comments on pull requests
 
 ### Senior SRE → Staff SRE
-**data.world, Austin, TX** - March 2024 - July 2025
+**data.world, Austin, TX** - March 2023 - July 2025
 - Replaced Lacework with Golang/Docker Lambdas built on AWS Config and Systems Manager, cutting ~$100K in annual licensing costs
 - Stood up an enterprise Terraform platform - private module registry, Terratest-based Golang test suite, and Terraform Cloud - standardizing infrastructure deployments across the organization
 - Migrated legacy infrastructure and application code to multi-architecture Docker builds, delivering a 20% performance increase across production workloads
